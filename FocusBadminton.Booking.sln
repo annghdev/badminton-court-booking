@@ -24,8 +24,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Client", "src\Web\Web.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Common\Shared.csproj", "{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "tests\Test\Test.csproj", "{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store-procedures", "store-procedures", "{2579FB8E-F6F3-438D-9385-03BC31428464}"
 	ProjectSection(SolutionItems) = preProject
 		store-procedures\proc_check_available_fix.sql = store-procedures\proc_check_available_fix.sql
@@ -72,10 +70,6 @@ Global
 		{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,7 +81,6 @@ Global
 		{17BF6A35-B87B-487C-9376-1C0432FF3B85} = {D26E2084-5A1A-47E3-BE03-E8B9A74189C5}
 		{1993CC7A-9881-4B20-9959-8AFAADE27CA9} = {D26E2084-5A1A-47E3-BE03-E8B9A74189C5}
 		{A9001FE8-6D82-4978-814A-4F0C58AF7F3C} = {D26E2084-5A1A-47E3-BE03-E8B9A74189C5}
-		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F} = {6E2070DB-4769-491E-BE96-E455B363934F}
 		{2579FB8E-F6F3-438D-9385-03BC31428464} = {72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
