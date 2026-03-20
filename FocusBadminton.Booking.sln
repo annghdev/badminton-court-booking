@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11612.150 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26E2084-5A1A-47E3-BE03-E8B9A74189C5}"
 EndProject
@@ -10,32 +10,37 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_items", "{72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		..\proc_check_available_fix.sql = ..\proc_check_available_fix.sql
-		..\proc_schedule_v3.sql = ..\proc_schedule_v3.sql
-		..\proc_schedule_v4.sql = ..\proc_schedule_v4.sql
-		..\proc_schedule_v5_paused_handle.sql = ..\proc_schedule_v5_paused_handle.sql
-		proc_use.txt = proc_use.txt
-		..\proc_v6.sql = ..\proc_v6.sql
-		proc_v8.sql = proc_v8.sql
-		proc_ver9.sql = proc_ver9.sql
-		requests_sample.txt = requests_sample.txt
-		..\seeddata.sql = ..\seeddata.sql
-		sql_index.txt = sql_index.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E93158DF-F1D2-4B01-ADD8-E25C196DE7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{E93158DF-F1D2-4B01-ADD8-E25C196DE7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{EA36CDBB-4FFE-49B7-8EC8-FEAAF9069C7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{EA36CDBB-4FFE-49B7-8EC8-FEAAF9069C7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A0C5C872-4381-47D4-97BF-C2450FAE1FEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{A0C5C872-4381-47D4-97BF-C2450FAE1FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web\Web.csproj", "{17BF6A35-B87B-487C-9376-1C0432FF3B85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web\Web.csproj", "{17BF6A35-B87B-487C-9376-1C0432FF3B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Client", "Web\Web.Client\Web.Client.csproj", "{1993CC7A-9881-4B20-9959-8AFAADE27CA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Client", "src\Web\Web.Client\Web.Client.csproj", "{1993CC7A-9881-4B20-9959-8AFAADE27CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Common\Shared.csproj", "{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Common\Shared.csproj", "{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "tests\Test\Test.csproj", "{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store-procedures", "store-procedures", "{2579FB8E-F6F3-438D-9385-03BC31428464}"
+	ProjectSection(SolutionItems) = preProject
+		store-procedures\proc_check_available_fix.sql = store-procedures\proc_check_available_fix.sql
+		store-procedures\proc_schedule_v3.sql = store-procedures\proc_schedule_v3.sql
+		store-procedures\proc_schedule_v4.sql = store-procedures\proc_schedule_v4.sql
+		store-procedures\proc_schedule_v5_paused_handle.sql = store-procedures\proc_schedule_v5_paused_handle.sql
+		store-procedures\proc_tinh_tien.txt = store-procedures\proc_tinh_tien.txt
+		store-procedures\proc_use.txt = store-procedures\proc_use.txt
+		store-procedures\proc_v6.sql = store-procedures\proc_v6.sql
+		store-procedures\proc_v8.sql = store-procedures\proc_v8.sql
+		store-procedures\proc_ver9.sql = store-procedures\proc_ver9.sql
+		store-procedures\requests_sample.txt = store-procedures\requests_sample.txt
+		store-procedures\seeddata.sql = store-procedures\seeddata.sql
+		store-procedures\sql_index.txt = store-procedures\sql_index.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +88,7 @@ Global
 		{1993CC7A-9881-4B20-9959-8AFAADE27CA9} = {D26E2084-5A1A-47E3-BE03-E8B9A74189C5}
 		{A9001FE8-6D82-4978-814A-4F0C58AF7F3C} = {D26E2084-5A1A-47E3-BE03-E8B9A74189C5}
 		{EB15FF13-E60D-42A5-B0A6-8E5C69BD0F5F} = {6E2070DB-4769-491E-BE96-E455B363934F}
+		{2579FB8E-F6F3-438D-9385-03BC31428464} = {72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3DFF475-4FB5-464B-A70E-FFBE1B46FB92}

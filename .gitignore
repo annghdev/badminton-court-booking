@@ -369,3 +369,7 @@ Web/Web/appsettings.Production.json
 Web/Web.Client/wwwroot/appsettings.json
 Web/Web.Client/wwwroot/appsettings.Development.json
 Web/Web.Client/wwwroot/appsettings.Production.json
+/src/Web/Web/appsettings.Production.json
+/src/Web/Web/appsettings.Development.json
+/src/Web/Web.Client/wwwroot/appsettings.Production.json
+/src/Web/Web.Client/wwwroot/appsettings.Development.json
