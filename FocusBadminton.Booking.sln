@@ -5,9 +5,10 @@ VisualStudioVersion = 18.4.11612.150 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26E2084-5A1A-47E3-BE03-E8B9A74189C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_items", "{72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{E93158DF-F1D2-4B01-ADD8-E25C196DE7DF}"
@@ -25,10 +26,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store-procedures", "store-procedures", "{2579FB8E-F6F3-438D-9385-03BC31428464}"
 	ProjectSection(SolutionItems) = preProject
 		store-procedures\proc_check_available_fix.sql = store-procedures\proc_check_available_fix.sql
-		store-procedures\proc_schedule_v3.sql = store-procedures\proc_schedule_v3.sql
-		store-procedures\proc_schedule_v4.sql = store-procedures\proc_schedule_v4.sql
-		store-procedures\proc_schedule_v5_paused_handle.sql = store-procedures\proc_schedule_v5_paused_handle.sql
-		store-procedures\proc_tinh_tien.txt = store-procedures\proc_tinh_tien.txt
 		store-procedures\proc_use.txt = store-procedures\proc_use.txt
 		store-procedures\proc_v6.sql = store-procedures\proc_v6.sql
 		store-procedures\proc_v8.sql = store-procedures\proc_v8.sql
