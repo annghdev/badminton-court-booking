@@ -4,7 +4,7 @@ using Shared.Vouchers;
 
 namespace Web.Client.Pages
 {
-    public partial class VoucherManagement
+    public partial class Vouchers
     {
         [Inject] VouchersService VouchersService { get; set; }
         [Inject] MembersService MembersService { get; set; }

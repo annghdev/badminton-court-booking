@@ -5,8 +5,6 @@ VisualStudioVersion = 18.4.11612.150 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26E2084-5A1A-47E3-BE03-E8B9A74189C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6E2070DB-4769-491E-BE96-E455B363934F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_items", "{72B8F7A2-EB4C-4127-890E-60C9A4C37C6F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore

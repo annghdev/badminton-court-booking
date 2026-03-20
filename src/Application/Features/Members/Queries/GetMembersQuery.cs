@@ -16,7 +16,7 @@ namespace Application.Features.Members.Queries
         }
         public async Task<IEnumerable<MemberDTO>> Handle(GetMembersQuery request, CancellationToken cancellationToken)
         {
-            var members = await _memberRepository.GetAllAsync(null,cancellationToken);
+            var members = await _memberRepository.GetAllAsync(null!, cancellationToken);
             return members.Select(m => m.ToMemberDTO());
         }
     }

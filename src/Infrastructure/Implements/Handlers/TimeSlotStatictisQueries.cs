@@ -9,7 +9,7 @@ namespace Infrastructure.Implements.Handlers
 {
     public class TimeSlotStatictisQueries : ITimeSlotStatisticQueries
     {
-        private readonly AppDbContext _context; // Thay YourDbContext bằng tên DbContext của bạn
+        private readonly AppDbContext _context;
 
         public TimeSlotStatictisQueries(AppDbContext context)
         {

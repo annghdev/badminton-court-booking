@@ -1,16 +1,10 @@
 ﻿@page "/"
-
-<Breadcrumb>
-    <BreadcrumbItem>Tổng quan</BreadcrumbItem>
-</Breadcrumb>
-
-<MemberManagement/>
-<TimeSlot/>
-<VoucherManagement/>
-
-
+@inject NavigationManager Navigation
 @code {
-  
+    protected override void OnInitialized()
+    {
+        Navigation.NavigateTo("/court-schedule/1");
+    }
 }
 
 
